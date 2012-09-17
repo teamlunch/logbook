@@ -1,9 +1,56 @@
 
-==================================================================================================================
+========================================================================================
 Sunday, September 16th, 2012
 
 James did some general setup:
    - Suggested a logo for the team
    - Created a this logbook on GitHub
    - Uploaded the "Iteration -1" project, including the cross-compiled libusb and libphidgets
+
+========================================================================================
+Monday, September 17th, 2012
+
+The team had a start-up meeting, and discussed the following items:
+
+General Discussion:
+   - We need to distribute the VM Image to everyone
+   - We already have our toolchain for the quadcopter
+      - But not for the Tablet... worry about this later
+   - James made a website at http://teamlunch.github.com
+   - Everyone wants to code/write reports - we won't be specializing within the team
+   - Everyone needs to make sure they're comfortable with using Git
+
+Purchasing;
+   - Right now, have one copter, one sensor controller, one IR sensor, one ultrasonic sensor
+   - We should get a second one so we can keep working if we break the first one
+
+Project Methodology and Scheduling:
+   - We'll use Agile to drive the project; submit reports as necessary
+
+Coding Conventions:
+   - Use CDL Standards
+      - Tabs are 3 spaces
+      - Curly-braces on their own lines
+      - Constants are ALL_CAPS_WITH_UNDERSCORES
+      - ClassNamesAreCamelCase, membersStartsWithALowerCase
+      - membersHaveAnUnderscoreAtTheEnd_
+      - if (statementsHaveASpaceBeforeTheBracket)
+      - Aim for lots of small functions
+      - Acryonyms are capitalized like words (i.e. it's OpenGl, not OpenGL)
+
+How we'll get started on the actual project:
+   - Get Rami, Adam and Jennifer compiling on the VM
+   - Start by making a proxy server that just eats commands
+
+   We might be able to break the project into three things:
+      - The software on the drone
+      - The physical sensors
+      - Unit/Acceptance Testing
+
+   We'll discuss this more on Wednesday, once everyone has the VM.
+
+Action Items:
+   - Jennifer will write a draft of our Team Constitution
+   - James will buy one more quadcopter
+   - James will get a real copy of CDL's coding conventions
 
