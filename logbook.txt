@@ -1,0 +1,9 @@
+
+==================================================================================================================
+Sunday, September 16th, 2012
+
+James did some general setup:
+   - Suggested a logo for the team
+   - Created a this logbook on GitHub
+   - Uploaded the "Iteration -1" project, including the cross-compiled libusb and libphidgets
+
