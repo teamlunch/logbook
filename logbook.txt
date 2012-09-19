@@ -7,6 +7,8 @@ James did some general setup:
    - Created a this logbook on GitHub
    - Uploaded the "Iteration -1" project, including the cross-compiled libusb and libphidgets
 
+
+
 ========================================================================================
 Monday, September 17th, 2012
 
@@ -54,3 +56,57 @@ Action Items:
    - James will buy one more quadcopter
    - James will get a real copy of CDL's coding conventions
 
+
+
+========================================================================================
+Wednesday, September 19th, 2012
+
+We received a short lecture from Dr Moussavi about our impending team constitution
+assignment
+
+Outlined our team constitution
+   Goals
+   - Want to get a good grade
+   - Personal and professional development
+   - Deliver a wealth of information on small UAVs to CDL
+
+   Membersip
+   - Us (contact information has been distributed already)
+
+   Roles and Responsibilities
+   - Scribe: Pick someone at beginning of each meeting
+   - Customer Liason: James
+   - Alt Customer Liason: Adam
+   - Purchaser: James
+   - Developers: Everyone
+   - Report writers: Everyone
+   - Standards Person: Adam
+
+   Mettings
+   - Meet as required by the course (i.e. mondays and wednesdays)
+   - Additional meetings as required (with adequate notice)
+   - Give one day's notice before missing a meeting
+
+   Funds
+   - Will bill CDL after purchasing things
+
+   Minutes and Records
+   - Use the shared logbook
+
+   Alterations to the Constition
+   - At any time; by agreement of everyone
+
+   Dissolution
+   - Upon completion of the course
+
+   Standards
+   - Use Google Docs
+   - Use GitHub/teamlunch for the website, logbook and source control
+   - Tools are whatever you want, as long as it ends up on GitHub
+   - Follow the coding style agreed above (Sept 17)
+
+   Rules
+   - Do things on time, or you don't get to come to the team lunch
+
+   Conflict Resolution
+   - Go to lunch
