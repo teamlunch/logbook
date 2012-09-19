@@ -141,7 +141,7 @@ First Iteration Things to Do
    - Create a sample application that eats operator commands (as a proof-of-concept)
 
    Environment and Tools
-   - Get make/cmake/bjam/tup/something working to build the project
+   - Get make/cmake/bjam/tup/something working to build the project (Adam)
    - Clean up the deployment script
    - Investigate automated acceptance tests (AATs) over the whole application
       - Use a simulator?
