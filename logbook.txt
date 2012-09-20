@@ -110,3 +110,11 @@ Outlined our team constitution
 
    Conflict Resolution
    - Go to lunch
+
+
+
+========================================================================================
+Thursday, September 20th, 2012
+
+James ammended the Team Constitution, adding the coding conventions, and fleshing out
+details of the various sections.
