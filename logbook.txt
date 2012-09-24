@@ -118,3 +118,44 @@ Thursday, September 20th, 2012
 
 James ammended the Team Constitution, adding the coding conventions, and fleshing out
 details of the various sections.
+
+
+
+========================================================================================
+Monday, September 24th, 2012
+
+Held a Team Meeting
+   - Will work on project Tuesday/Thursday from 3:30 - 5:00
+   - Will talk about project on Monday/Wednesday from 1:00 - 2:00
+   - This schedule is really inconvenient, but we can't actually get much done in only
+     an hour :(
+
+First Iteration Things to Do
+   Sensors
+   - Get the ultrasonic sensor soldered and working
+   - Compare against the IR sensor, determine which is best
+
+   Autopilot Command Proxy
+   - Get iptable routing working on the drone
+   - Figure out how to parse AT commands
+   - Create a sample application that eats operator commands (as a proof-of-concept)
+
+   Environment and Tools
+   - Get make/cmake/bjam/tup/something working to build the project
+   - Clean up the deployment script
+   - Investigate automated acceptance tests (AATs) over the whole application
+      - Use a simulator?
+      - Just test inputs/outputs?
+      - Both?
+
+Second Iteration Things to Do
+   Sensor Layout
+   - Figure out what is best
+
+   Collision Avoidance
+   - Develop the algorithm
+   - Make it actually work
+
+Going Forward
+   - Do the "First Iteration" things
+   - Will meet tomorrow at 12:00 noon to begin work
