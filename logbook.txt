@@ -157,5 +157,7 @@ Second Iteration Things to Do
    - Make it actually work
 
 Going Forward
-   - Do the "First Iteration" things
+   - Do the "First Iteration" things tomorrow 
    - Will meet tomorrow at 12:00 noon to begin work
+
+   - Will gain experience with AR.Drone for remainder of meeting
