@@ -161,3 +161,23 @@ Going Forward
    - Will meet tomorrow at 12:00 noon to begin work
 
    - Will gain experience with AR.Drone for remainder of meeting
+
+
+========================================================================================
+Tuesday, September 25th, 2012
+
+Project Work Period
+
+Adam investigated getting make working for the project 
+   - Looks like it should work
+   - Cross-platform works out of the box
+
+James started working on IpTables stuff
+   - Managed to redirect the main command port to a dead port; successfully confusing
+     the AR.FreeFlight control app.
+   - Began writing a sample proxy application that prints out commands, and eats 
+     some of them
+   - Notes are kept in iteration-1/port-routing.txt
+
+Jennifer and Rami started learning how Git works
+
