@@ -1,0 +1,7 @@
+Reset to remote repository(ie throw away all changes): git reset --hard origin
+Reset to local repository: git reset --hard HEAD
+Add all files to commit: git add .
+commit with message: git commit -m "message"
+push to remote repository: git push
+pull from remote repository: git pull
+get current file status's: git status
