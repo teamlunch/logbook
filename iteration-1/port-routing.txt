@@ -1,12 +1,9 @@
+
 To Get Initial Port Routing Working:
 
-   iptables -A INPUT -i ath0 -p udp --dport 5556 -j ACCEPT
-   iptables -A PREROUTING -t nat -i ath0 -p udp --dport 5556 -j REDIRECT --to-port 6666
+iptables -A INPUT -i ath0 -p udp --dport 5556 -j ACCEPT
+iptables -A PREROUTING -t nat -i ath0 -p udp --dport 5556 -j REDIRECT --to-port 6666
 
 Since this is on "ath0", hopefully loopback packets will still work :)
 
-
-NFS Mounting:
-
-sudo mount 192.168.56.101:/home/ardrone vm/
-
+=> There is now a script in "bin" that handles this.  Don't do it manually!

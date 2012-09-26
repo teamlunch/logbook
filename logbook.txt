@@ -181,3 +181,17 @@ James started working on IpTables stuff
 
 Jennifer and Rami started learning how Git works
 
+
+========================================================================================
+Wednesday, September 26th, 2012
+
+Team received first assignment, began work
+   - Project proposal is already written and contains a good start
+   - Will create google doc
+
+
+Continued work on IpTables stuff
+   - We can now successfully proxy the control commands
+   - This means the last actual roadblock has now been lifted
+   - Yay!
+
