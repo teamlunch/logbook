@@ -194,4 +194,17 @@ Continued work on IpTables stuff
    - We can now successfully proxy the control commands
    - This means the last actual roadblock has now been lifted
    - Yay!
+   
+========================================================================================
+Thursday, September 27th, 2012
 
+Continued work on sensor selection
+   -Soldered the ultrasonic sensor to the control cable
+   -Did testing with both the ultrasonic and infrared sensors
+   -The ultrasonic sensors appears to be the clear winner
+   -Decided to purchase the embedded sensor controller board as well as more ultrasonic
+    sensors for further testing 
+    
+Action Items
+   -Buy Embedded sensor controller board
+   -Buy 4 - 5 more ultrasonic sensors
