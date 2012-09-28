@@ -208,3 +208,18 @@ Continued work on sensor selection
 Action Items
    -Buy Embedded sensor controller board
    -Buy 4 - 5 more ultrasonic sensors
+   
+========================================================================================
+Monday, October 1st, 2012
+
+James order the embedded sensor controller board as well as 5 more ultrasonic sensors.
+
+Talked about what type of tablet would be best for our project
+   -Possibly one of the google Nexus 7's
+   -Asus tablets seem like the best as they are close to stock android
+   -Decided on a Asus 10.1 inch tablet from best buy
+   
+Informed our customer that we should have a demo available within the next month.
+   
+
+   
