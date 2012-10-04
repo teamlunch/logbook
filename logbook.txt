@@ -223,3 +223,19 @@ Informed our customer that we should have a demo available within the next month
    
 
    
+========================================================================================
+Wednesday, October 3st, 2012
+
+James will pick up all purchases immidately after the meeting
+
+Discussed risk & reporting requirements
+   - Team will manage risk by prototyping risky parts of project immidately
+      -> This is the Agile Way(tm)
+      -> This is also how our customer requested we proceed
+
+   - Team will write the report after reporting requirements have been finalized 
+
+Started working on the project
+   - Found a unit testing framework (UnitTest++)
+   - Created basic project structure
+   - Successfully ran a 'hello world' acceptance test
