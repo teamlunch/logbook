@@ -239,3 +239,29 @@ Started working on the project
    - Found a unit testing framework (UnitTest++)
    - Created basic project structure
    - Successfully ran a 'hello world' acceptance test
+
+
+========================================================================================
+Thursday, October 4th, 2012
+
+Received sensors from Phidgets
+   - Got Warren (the helpful lab tech) to solder them to cables for us 
+   - Researched how to connect sensors to embedded board
+   - Researched how to physically mount sensors to the 'copter frame
+   - Discussed options for full-size vs embedded board 
+
+Unpacked other 'copter, discussed battery charging regime
+   - Fresh batteries go on the specially marked pad
+
+
+========================================================================================
+Wednesday, October 10th, 2012
+
+Team investigated the latest report assignment
+
+Next Major Milestone - Full Suite of Sensors 
+   - Get the 'copter talking to all five sensors 
+   - Write an accompanying acceptance test 
+   - Mount all sensors on the actual frame 
+   - Doesn't need to fly; just needs to report readings
+
