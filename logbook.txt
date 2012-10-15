@@ -265,3 +265,8 @@ Next Major Milestone - Full Suite of Sensors
    - Mount all sensors on the actual frame 
    - Doesn't need to fly; just needs to report readings
 
+========================================================================================
+Monday, October 15th, 2012
+
+-Team decided on a time to finish up the backlog of assignments we havent finished
+-We will meet on Tuesday Oct 23 at 3:15pm to start and finish all assignments that have been posted.
