@@ -290,3 +290,26 @@ Wednesday, October 31th, 2012
 -Team has been plagued by illness this week with only 3 members present for meeting so report has been posponed.
 -Team will talk via emails to decided on a meeting date to piece together the report.
 	-Tenitive date will be saturday meetup to finish the report
+
+========================================================================================
+Wednesday, November 14th, 2012
+
+-Discussed the how we are going to proceed with Report number 2.
+	-Going to start on report as soon as possible and not leave it last minute.
+	-Jen will take point on report 2 to ensure that tasks are allocated to group members appropriatly.
+	
+
+-Discussed what we need for the presentation.
+	-We need to come up with what we are going to present.
+		-Need a powerpoint
+		-Rami will take point on piecing together what needs to be done for the powerpoint
+			-allocate tasks to each group member on what they need to write for it.
+
+	-Basic protype steps
+		1. we need to fly with all sensors and embeddedcontroller board attached(Adam)
+		2. We need to put together the sensors and controller board together and get them talking(Adam)
+		3. Put the command proxy into the new system architecture.(James)
+		4. Test fly with command proxy running but not doing anything(All)
+		5. Write basic collision avoidence code and tests(To be determined)
+		6. Fly with basic collision avoidence code.(All)
+		
