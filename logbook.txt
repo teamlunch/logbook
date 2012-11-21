@@ -313,3 +313,25 @@ Wednesday, November 14th, 2012
 		5. Write basic collision avoidence code and tests(To be determined)
 		6. Fly with basic collision avoidence code.(All)
 		
+===============================================================================================
+Monday, November 19, 2012
+	
+	-Tried different methods to attach sensors securely to the quadcopters frame.
+	Method 1: use shrink wrap to attach sensors to frame
+	Method 2: use double sided tape to attach sensors to frame.
+	
+	Conclusion: Method 2 was better as it was easier to attach the sensors. Method 1 was extremely tedious
+			and the sensors did not feel completly secure.
+	
+	Quadcopter is ready for the embedded sensor board which needs to be soldered asap.
+
+===============================================================================================
+Wednesday, November 21, 2012
+	
+	-Discussed progress on project presentation
+	-Rami was lazy and did not meet his requirements, everyone else had finished
+	-Disscused allocationg of parts to do for report #2
+	-Talked to Warren to arrange a time to have some soldering done for our embedded sensor board
+
+	-James now has 6 passing acceptences for the command proxy, we should be able to attempt a test
+	flight after we finish soldering.
