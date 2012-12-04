@@ -327,7 +327,6 @@ Monday, November 19, 2012
 
 ===============================================================================================
 Wednesday, November 21, 2012
-	
 	-Discussed progress on project presentation
 	-Rami was lazy and did not meet his requirements, everyone else had finished
 	-Disscused allocationg of parts to do for report #2
@@ -335,3 +334,28 @@ Wednesday, November 21, 2012
 
 	-James now has 6 passing acceptences for the command proxy, we should be able to attempt a test
 	flight after we finish soldering.
+	
+===============================================================================================
+Monday, November 26, 2012
+ -Worked on the report
+ -Discussed presentation
+ -Flew quadcopter with all sensors attached but dissconnected to ensure that we will not run into
+ any problems with weight.
+
+===============================================================================================
+Wednesday, November 28, 2012
+ -Filmed ourselves with our first prototype test flight of the quadcopter with all the sensors
+ attached and gathering test data.
+ -Filmed ourselves giving a small bio of the project so far to deliver a video presentation to our
+ sponsor
+ -Finalized most parts for the report and split up the proofreading.
+
+===============================================================================================
+Monday, December 3, 2012
+ -Submitted Report #2
+ -Went over our presentation for the first time.
+ -Delievered our video to our sponsor.
+
+===============================================================================================
+Tuesday, December 4, 2012
+ -Went over our presentation for the second time to ensure we are ready for wednesdays presentation.
