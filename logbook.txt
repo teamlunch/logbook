@@ -359,3 +359,48 @@ Monday, December 3, 2012
 ===============================================================================================
 Tuesday, December 4, 2012
  -Went over our presentation for the second time to ensure we are ready for wednesdays presentation.
+
+
+
+===============================================================================================
+===============================================================================================
+                           START OF ENEL 589, WINTER TERM
+=============================================================================================== 
+===============================================================================================
+
+
+===============================================================================================
+Saturday, January 12, 2013
+-Adam explored open source options to build upon for our android application, Adam was able to 
+locate and compile/run a few open source applications that were made for the AR Drone 1.0 and would likely not 
+work for our project since the API changed inbetween versions.
+   -http://kougaku-navi.net/ARDroneForP5/index_en.html
+   -http://code.google.com/p/javadrone/
+   -https://github.com/UnknownGuardian/ARDrone-on-Android
+
+===============================================================================================
+Sunday, January 13, 2013
+-A post was answered on the AR drone development website listing a new source for android development
+   -http://vsis-www.informatik.uni-hamburg.de/projects/yadrone/
+
+===============================================================================================
+Tuesday, January 15, 2013
+-Team meeting
+   -Tested out all of the android drone applications we found, none of the applications worked
+   correctly.  However we eventually figured out that we were compiling yadrone for the wrong 
+   android target and were able to use the application to successfully fly the drone.
+   -We decided that we will scrap the sample android application that was supplied with the 
+   yadrone framework and we would build our application from the ground up and use the framework
+   in order to avoid having to reimplement all the commands that are sent to the drone for it 
+   to fly
+
+===============================================================================================
+Wednesday, January 16, 2013
+-Team meeting during lab period
+   -Discussed how to start doing the report 1 for this project 
+   -Decided that the target android device we will use is a Nexus 7 since a 10 inch tablet feels to 
+   big while flying the copter
+   -Adam will get a nexus 7 tablet for development this evening
+   -James updated us on his work with the avoidance system on the drone, did some sample command testing
+   to get sample command data to implement from
+
