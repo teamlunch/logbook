@@ -1,0 +1,32 @@
+
+=========================================================================
+                     Demonstration Video Two
+=========================================================================
+
+------------------------------------------------------------------------
+   Goals
+------------------------------------------------------------------------
+
+Need to demonstrate autonomous collision avoidance
+   - Prevent collisions due to fixed objects
+   - Prevent collisions due to mobile objects
+
+Need to tell story of development process, leading to second milestone
+   Hardware:
+   - Sensor data-gathering
+   - Installation of additional sensors
+
+   Software:
+   - Development of collision detection algorithm
+   - Testing the algorithm
+
+   Combining:
+   - Adjusting the algorithm
+   - Complete collision avoidance package
+
+
+------------------------------------------------------------------------
+   Script
+------------------------------------------------------------------------
+
+JAMES: This is a line

@@ -315,7 +315,7 @@ Wednesday, November 14th, 2012
 		
 ===============================================================================================
 Monday, November 19, 2012
-	
+
 	-Tried different methods to attach sensors securely to the quadcopters frame.
 	Method 1: use shrink wrap to attach sensors to frame
 	Method 2: use double sided tape to attach sensors to frame.
@@ -327,6 +327,7 @@ Monday, November 19, 2012
 
 ===============================================================================================
 Wednesday, November 21, 2012
+
 	-Discussed progress on project presentation
 	-Rami was lazy and did not meet his requirements, everyone else had finished
 	-Disscused allocationg of parts to do for report #2
@@ -337,6 +338,7 @@ Wednesday, November 21, 2012
 	
 ===============================================================================================
 Monday, November 26, 2012
+
  -Worked on the report
  -Discussed presentation
  -Flew quadcopter with all sensors attached but dissconnected to ensure that we will not run into
@@ -344,6 +346,7 @@ Monday, November 26, 2012
 
 ===============================================================================================
 Wednesday, November 28, 2012
+
  -Filmed ourselves with our first prototype test flight of the quadcopter with all the sensors
  attached and gathering test data.
  -Filmed ourselves giving a small bio of the project so far to deliver a video presentation to our
@@ -352,12 +355,14 @@ Wednesday, November 28, 2012
 
 ===============================================================================================
 Monday, December 3, 2012
+
  -Submitted Report #2
  -Went over our presentation for the first time.
  -Delievered our video to our sponsor.
 
 ===============================================================================================
 Tuesday, December 4, 2012
+
  -Went over our presentation for the second time to ensure we are ready for wednesdays presentation.
 
 
@@ -371,7 +376,8 @@ Tuesday, December 4, 2012
 
 ===============================================================================================
 Saturday, January 12, 2013
--Adam explored open source options to build upon for our android application, Adam was able to 
+
+Adam explored open source options to build upon for our android application, Adam was able to 
 locate and compile/run a few open source applications that were made for the AR Drone 1.0 and would likely not 
 work for our project since the API changed inbetween versions.
    -http://kougaku-navi.net/ARDroneForP5/index_en.html
@@ -380,12 +386,14 @@ work for our project since the API changed inbetween versions.
 
 ===============================================================================================
 Sunday, January 13, 2013
--A post was answered on the AR drone development website listing a new source for android development
+
+A post was answered on the AR drone development website listing a new source for android development
    -http://vsis-www.informatik.uni-hamburg.de/projects/yadrone/
 
 ===============================================================================================
 Tuesday, January 15, 2013
--Team meeting
+
+Team meeting
    -Tested out all of the android drone applications we found, none of the applications worked
    correctly.  However we eventually figured out that we were compiling yadrone for the wrong 
    android target and were able to use the application to successfully fly the drone.
@@ -396,7 +404,8 @@ Tuesday, January 15, 2013
 
 ===============================================================================================
 Wednesday, January 16, 2013
--Team meeting during lab period
+
+Team meeting during lab period
    -Discussed how to start doing the report 1 for this project 
    -Decided that the target android device we will use is a Nexus 7 since a 10 inch tablet feels to 
    big while flying the copter
@@ -404,3 +413,85 @@ Wednesday, January 16, 2013
    -James updated us on his work with the avoidance system on the drone, did some sample command testing
    to get sample command data to implement from
 
+
+===============================================================================================
+Wednesday, January 23, 2013
+
+Performed sensor platform testing
+   - Recorded entire test procedure to video
+   - Will use for Part 1 of the Iteration 2 video deliverable
+   - Collected data to determine sensor envelope
+
+Data Collected:
+   Important Findings
+   - The 'copter picks up the ground at a certain distance, limiting maximum detection range
+      - We tested with the 'copter 150cm off the ground, giving floor readings of ~400cm
+
+   - We need for additional sensors for full frontal coverage
+      - Sensors DO NOT have 45-degree visibility
+
+   Binder Test
+   - Reports correct distances up to range limit (2m)
+
+   We Noticed that the ground is detected; all sensors report ~2m
+   - Raised copter to get better ground clearance (initially 107cm, now 150cm)
+
+   Small Box Test
+   - Was detectable to 220cm
+
+   Just the test arm
+   - Was detectable to 120cm
+
+   Binder test (again)
+   - Was detectable to 300cm
+
+   Piece of Cardboard Test
+   - Was detectable to 350cm
+
+   Human Test
+   - Detectable the whole range, up to where the ground is seen
+
+   Detection Time
+   - Negligable latency (see iPhone video for specifics)
+
+   Angle Test
+   - Placed binder on perpendicular line, 1m from 'copter, walked it sideways until detected
+   - Results indicate horizontal distance at which it was visible
+
+            [Copter]
+               |
+               |
+            1m |
+               |  15cm (the reading reported below)
+              -|-------|
+               |       [Binder, moving <= that way]
+
+   - Binder @ 1m => 15cm
+   - Binder @ 2m => 50cm
+   - Human @ 2m => 70cm
+   - Human @ 1m => 75cm
+   - Human @ 3m => 90cm
+   - Back Human @ 2m => 110cm
+   - Back Human @ 1m => 80cm
+
+   Approach Tests, with rear sensor
+   - We were curious if the cowling around the front of the 'copter was interfering
+     with readings 
+   - We rotated the 'copter, repeated tests with the rear sensor 
+
+   - Human was OK for entire range
+   - Binder made it to 290cm, similar to initial test
+   - Angle tests reported similar readings
+
+   "Just after takeoff" tests
+   - We were curious how the sensors behave just after takeoff
+
+   - Moved 'copter down to ~60cm off the ground
+   - All sensors reporting ~230cm
+
+   - Human Test stalled out around 230cm as expected
+
+   Other test to do - wall angle tests?
+   - Will need to do outside, when we have more time.
+
+Began developing script for second video
