@@ -495,3 +495,40 @@ Data Collected:
    - Will need to do outside, when we have more time.
 
 Began developing script for second video
+
+===============================================================================
+Wednesday January 30
+
+Team Meeting Minutes:
+- Bought a second tablet to make app development easier
+- Test data was analyzed and entered into the report
+- Focusing on Report 1 today; we split up the last bits of the report.  Rami and James will produce the images and diagrams.  James will also elaborate on hardware and collision avoidance design.  Rami will write the app design. Jennifer will complete health and safety analysis, schedule, and high level design specs.  Adam will complete budget, copy in introduction and rework it.  Note that while these sections were what we were each responsible for, we all contribute to any part of the paper we feel requires elaboration or improvement.  Jennifer will do the final revision / formatting of the paper and Adam will be responsible for handing it in.
+
+===============================================================================
+Wednesday February 6th
+
+Team Meeting Minutes:
+- Had our midterm meeting with Dr Haque on Monday.  We reviewed our report and found that we needed to number our sections.  Additionally, he would like us to provide a detailed parts list with the cost of each component in our budget.
+- We requested not to be supervised by Mike Smith, as we felt he focused to much on the hardware components of our project, and had a different idea of the scope of our system.
+- Dr Haque would like us to meet with our academic advisor, so we will set up an appointment.
+- Updates on app development
+- Updates on collision avoidance
+- Discussion on keeping up with logbook 
+- Debriefing on Report 1: we feel we did a good job completing requirements for the paper, and do not think we could have avoided the aspects of it which cost us marks, due to lack of knowledge on additional requirements.
+
+===============================================================================
+Wednesday February 13th
+
+===============================================================================
+Wednesday February 20th
+NO MEETING: READING WEEK BREAK
+
+===============================================================================
+Wednesday February 27th
+
+Team Meeting Minutes: 
+- Looking forward to Report 2, and assigning roles:
+- Testing discussion
+	
+===============================================================================
+Wednesday March 6th
