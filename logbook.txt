@@ -468,6 +468,7 @@ Data Collected:
 
    - Binder @ 1m => 15cm
    - Binder @ 2m => 50cm
+   - Binder @ 3m => Barely Detectable
    - Human @ 2m => 70cm
    - Human @ 1m => 75cm
    - Human @ 3m => 90cm

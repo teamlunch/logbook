@@ -1,11 +1,11 @@
 
-=========================================================================
+===================================================================================
                      Demonstration Video Two
-=========================================================================
+===================================================================================
 
-------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
    Goals
-------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
 Need to demonstrate autonomous collision avoidance
    - Prevent collisions due to fixed objects
@@ -25,8 +25,17 @@ Need to tell story of development process, leading to second milestone
    - Complete collision avoidance package
 
 
-------------------------------------------------------------------------
-   Script
-------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+   Actual Script
+-----------------------------------------------------------------------------------
 
-JAMES: This is a line
+JAMES: With our end-to-end hardware ready, we could begin real-world testing of our
+       sensor platform. 
+
+       To build a picture of our sensor envelope, we tested the detectability of 
+       walls, people, books, and thin rods, in various positions around to the vehicle. 
+       Larger objects were more easily detectable, while small objects, such as 
+       thin rods, were barely detectable at all.
+
+       We also discovered that our sensors detect the floor, due to their wide 
+       operating envelope.  This presents an upper limit to our detection range.
