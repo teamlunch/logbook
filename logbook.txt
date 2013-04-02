@@ -413,6 +413,14 @@ Team meeting during lab period
    -James updated us on his work with the avoidance system on the drone, did some sample command testing
    to get sample command data to implement from
 
+===============================================================================================
+Monday, January 21, 2013
+
+James
+   - Tried to connect to drone app
+   - Discovered issue with packet parsing logic 
+   - Fixed packet parsing
+   - Added better logging functionality to diagnose issues in future
 
 ===============================================================================================
 Wednesday, January 23, 2013
@@ -498,38 +506,186 @@ Data Collected:
 Began developing script for second video
 
 ===============================================================================
+Sunday January 27
+
+Adam - worked on modifications to AR.FreeFlight app
+   - Removed unused yadrone framework from depot
+   - Removed temporary android app from depot
+   - Other misc cleanup
+
+   - Added FreeFlight2 app, along with ARDroneLib
+   - Discovered issue with absolute control mode
+   - Began removing app's ability to use compass to navigate for absolute control mode
+
+   - Updated git configuration to exclude build files
+
+   - Compass tweak didn't fix absolute control mode
+   - Discussed with James - don't need absolute mode
+   - Removed absolute control mode from application entirely
+
+   - Set up deploy.sh to push .apk to the tablet easily
+
+
+===============================================================================
+Tuesday January 29
+
+Adam - worked on app
+   - Changed branding to custom "team lunch" images so we don't get confused
+     between modified app and original app
+   - Removed un-necessary menu options on homescreen
+   - Added menu option to upload autonomous collision avoidance firmware
+
+
+===============================================================================
 Wednesday January 30
 
 Team Meeting Minutes:
-- Bought a second tablet to make app development easier
-- Test data was analyzed and entered into the report
-- Focusing on Report 1 today; we split up the last bits of the report.  Rami and James will produce the images and diagrams.  James will also elaborate on hardware and collision avoidance design.  Rami will write the app design. Jennifer will complete health and safety analysis, schedule, and high level design specs.  Adam will complete budget, copy in introduction and rework it.  Note that while these sections were what we were each responsible for, we all contribute to any part of the paper we feel requires elaboration or improvement.  Jennifer will do the final revision / formatting of the paper and Adam will be responsible for handing it in.
+   - Considered buying a second tablet to make app development easier
+   - Test data was analyzed and entered into the report
+   - Focusing on Report 1 today; we split up the last bits of the report.  Rami and James will 
+     produce the images and diagrams.  James will also elaborate on hardware and collision 
+     avoidance design.  Rami will write the app design. Jennifer will complete health and 
+     safety analysis, schedule, and high level design specs.  Adam will complete budget, copy 
+     in introduction and rework it.  Note that while these sections were what we were each 
+     responsible for, we all contribute to any part of the paper we feel requires elaboration 
+     or improvement.  Jennifer will do the final revision / formatting of the paper and Adam 
+     will be responsible for handing it in.
 
 ===============================================================================
 Wednesday February 6th
 
 Team Meeting Minutes:
-- Had our midterm meeting with Dr Haque on Monday.  We reviewed our report and found that we needed to number our sections.  Additionally, he would like us to provide a detailed parts list with the cost of each component in our budget.
-- We requested not to be supervised by Mike Smith, as we felt he focused to much on the hardware components of our project, and had a different idea of the scope of our system.
-- Dr Haque would like us to meet with our academic advisor, so we will set up an appointment.
-- Updates on app development
-- Updates on collision avoidance
-- Discussion on keeping up with logbook 
-- Debriefing on Report 1: we feel we did a good job completing requirements for the paper, and do not think we could have avoided the aspects of it which cost us marks, due to lack of knowledge on additional requirements.
+   - Had our midterm meeting with Dr Haque on Monday.  We reviewed our report and found that we 
+     needed to number our sections.  Additionally, he would like us to provide a detailed parts 
+     list with the cost of each component in our budget.
+   - We requested not to be supervised by Mike Smith, as we felt he focused to much on the 
+     hardware components of our project, and had a different idea of the scope of our system.
+   - Dr Haque would like us to meet with our academic advisor, so we will set up an appointment.
+   - Updates on app development
+   - Updates on collision avoidance
+   - Discussion on keeping up with logbook 
+   - Debriefing on Report 1: we feel we did a good job completing requirements for the paper, 
+     and do not think we could have avoided the aspects of it which cost us marks, due to 
+     lack of knowledge on additional requirements.
 
 ===============================================================================
 Wednesday February 13th
 
+Team Meeting Minutes:
+   - Discussed potential demonstration to CDL
+   - Discussed action plan going forward - project is almost complete, just need
+     to finish modifications to the app
+
 ===============================================================================
-Wednesday February 20th
+Wednesday, February 20th
+
 NO MEETING: READING WEEK BREAK
+
+Adam:
+   - Added ability for app to execute Telnet commands
+   - When 'upload' button is pressed, we can now get the drone running properly
+
+===============================================================================
+Friday, February 22nd
+
+Adam:
+   - Added support for downlinked collision avoidance messages 
+   - Collision bars now appear when collision is imminent
+   - Waiting on James to actually send the data to the tablet
+
+===============================================================================
+Monday, February 25th
+
+Adam:
+   - Discussed integration of drone and app with James
+   - Decided on simple UDP packet format: "0,0,0,0,0,0", where each "0" is a
+     sensor reading representing the danger level
+   - James will integrate support with the drone
+   - Changed warning bar networking thread to UDP
 
 ===============================================================================
 Wednesday February 27th
 
 Team Meeting Minutes: 
-- Looking forward to Report 2, and assigning roles:
-- Testing discussion
+   - Looking forward to Report 2, and assigning roles:
+   - Discussed testing options
 	
 ===============================================================================
 Wednesday March 6th
+
+Team Meeting Minutes:
+   - Integration mostly complete
+   - Ready for flight testing
+
+===============================================================================
+Thursday March 13th
+
+Email from Greg (sponsor):
+   - Wanted to touch base
+   - Asked for demo or video
+
+   James Replied:
+      - We're completing flight testing right now
+      - Will be completing all three project phases (1, 2, 3)
+      - Demo on March 19th?
+
+
+===============================================================================
+Wednesday March 15th
+
+Demo with CDL rescheduled
+   - Boardroom was booked 
+   - Demo moved to March 26th
+
+James added functionality to send collision avoidance data to tablet
+   - Used protocol discussed with Adam 
+   - Will do integration testing next week
+
+===============================================================================
+Thursday March 14th
+
+Adam and James - worked on final integration issues
+   - Changed avoidance bars to look nicer 
+   - Modified telnet command to run networking setup on the drone, as well as 
+     start the autopilot software
+
+===============================================================================
+Wednesday March 20th
+
+More integration testing
+   - Everything should be working, but isn't
+   - Strange issue: system works when started by laptop, but not when started 
+     by tablet 
+   - Tried to fix with sleep command, no luck
+
+===============================================================================
+Sunday March 24th
+
+Adam and James met to discuss final integration issues
+   - Diagnosed issue: AR.Drone locks sockets before setupPortForwarding is run 
+   - James modified drone to run setupPortForwarding as part of boot-time network
+     configuration 
+   - Tablet is now only responsible for starting the autopilot binary
+
+   - Tested changes 
+   - Changes work!
+
+   - Discussed demo on Tuesday - everything should be good to go
+
+===============================================================================
+Tuesday March 26th
+
+Demo to CDL
+   - Demo went well
+   - Seems like the entire company came out to watch :)
+   - No issues with drone, batteries, autopilot or tablet
+
+   - CDL asked for another video
+   - James will make it
+
+===============================================================================
+Tuesday, April 2nd
+
+James 
+   - Merged logbooks which had been accidently kept offline
+   - I guess GitHub's history doesn't look right if we don't use GitHub :)
