@@ -393,7 +393,7 @@ A post was answered on the AR drone development website listing a new source for
 ===============================================================================================
 Tuesday, January 15, 2013
 
-Team meeting
+Team meeting: 1pm.  All members in attendance.
    -Tested out all of the android drone applications we found, none of the applications worked
    correctly.  However we eventually figured out that we were compiling yadrone for the wrong 
    android target and were able to use the application to successfully fly the drone.
@@ -405,7 +405,7 @@ Team meeting
 ===============================================================================================
 Wednesday, January 16, 2013
 
-Team meeting during lab period
+Team meeting during lab period (1pm). All members in attendance.
    -Discussed how to start doing the report 1 for this project 
    -Decided that the target android device we will use is a Nexus 7 since a 10 inch tablet feels to 
    big while flying the copter
@@ -424,6 +424,11 @@ James
 
 ===============================================================================================
 Wednesday, January 23, 2013
+
+Team meeting during lab time (1pm.) All members attending. 
+
+   - We discussed what James did yesterday, as noted in yesterday's entry. 
+   - Based on Dr Smith's feedback, Jennifer constructed a list of specifications and limitations that need to be tested right away.  As a team, we came up with a plan to test all these things.  Adam had to go to class at 2pm, and James Jen and Rami did the following testing:
 
 Performed sensor platform testing
    - Recorded entire test procedure to video
@@ -512,19 +517,14 @@ Adam - worked on modifications to AR.FreeFlight app
    - Removed unused yadrone framework from depot
    - Removed temporary android app from depot
    - Other misc cleanup
-
    - Added FreeFlight2 app, along with ARDroneLib
    - Discovered issue with absolute control mode
    - Began removing app's ability to use compass to navigate for absolute control mode
-
    - Updated git configuration to exclude build files
-
    - Compass tweak didn't fix absolute control mode
    - Discussed with James - don't need absolute mode
    - Removed absolute control mode from application entirely
-
    - Set up deploy.sh to push .apk to the tablet easily
-
 
 ===============================================================================
 Tuesday January 29
@@ -535,13 +535,18 @@ Adam - worked on app
    - Removed un-necessary menu options on homescreen
    - Added menu option to upload autonomous collision avoidance firmware
 
-
 ===============================================================================
 Wednesday January 30
 
-Team Meeting Minutes:
-   - Considered buying a second tablet to make app development easier
-   - Test data was analyzed and entered into the report
+Team Meeting Minutes: (1pm, All members present.)
+
+Work completed since last meeting:
+
+Notes for the meeting:
+   - Considered buying a second tablet to make app development easier. We're having trouble 
+     sharing time to allow us all to have a chance with the tablet.  We expect that we will 
+     have enough funds in the budget to allow for this.
+   - Jen analyzed the test data and entered into the report.  
    - Focusing on Report 1 today; we split up the last bits of the report.  Rami and James will 
      produce the images and diagrams.  James will also elaborate on hardware and collision 
      avoidance design.  Rami will write the app design. Jennifer will complete health and 
@@ -554,7 +559,7 @@ Team Meeting Minutes:
 ===============================================================================
 Wednesday February 6th
 
-Team Meeting Minutes:
+Team Meeting Minutes: (1pm, all members present)
    - Had our midterm meeting with Dr Haque on Monday.  We reviewed our report and found that we 
      needed to number our sections.  Additionally, he would like us to provide a detailed parts 
      list with the cost of each component in our budget.
@@ -568,13 +573,34 @@ Team Meeting Minutes:
      and do not think we could have avoided the aspects of it which cost us marks, due to 
      lack of knowledge on additional requirements.
 
+Work completed since last meeting:
+   - Rami and James produced the images and diagrams.  
+   - James wrote hardware and collision avoidance design.  
+   - Rami wrote the app design. 
+   - Jennifer wrote health and safety analysis, schedule, and high level design specs.  She 
+     did the final edit and review of the paper.
+   - Adam wrote budget, copied and reworked the introduction.  He also handed in the report.
+   - Note that while these sections were what we were each responsible for, we all contributed 
+     to the overall paper.
+
+To Do for next week:
+   - Jen will update the logbook with all our offline materials.
+   - Rami will set up a meeting with our Academic Advisor, Dr Krishnamurthy.
+
+
 ===============================================================================
 Wednesday February 13th
 
-Team Meeting Minutes:
+Team Meeting Minutes: (1pm, All members present)
    - Discussed potential demonstration to CDL
    - Discussed action plan going forward - project is almost complete, just need
      to finish modifications to the app
+
+Completed Since Last Meeting:
+
+To Do For Next Meeting:
+   - James will set up a time for an informal demo to CDL systems
+   - Next week is a holiday, so no other work is assigned.
 
 ===============================================================================
 Wednesday, February 20th
@@ -606,9 +632,13 @@ Adam:
 ===============================================================================
 Wednesday February 27th
 
-Team Meeting Minutes: 
+Team Meeting Minutes: (1pm, All Members Present) 
    - Looking forward to Report 2, and assigning roles:
    - Discussed testing options
+
+Completed Since Last Meeting:
+   - James set up an informal demo with our sponsor.
+   - Not much else; last week was a holiday so only Adam was able to work on the project.
 	
 ===============================================================================
 Wednesday March 6th
@@ -633,13 +663,18 @@ Email from Greg (sponsor):
 ===============================================================================
 Wednesday March 15th
 
-Demo with CDL rescheduled
-   - Boardroom was booked 
-   - Demo moved to March 26th
+Group Meeting: (1pm, All members attended)
 
-James added functionality to send collision avoidance data to tablet
+Meeting Notes:
+   - Demo with CDL was rescheduled since the boardroom was booked 
+   - Demo was moved to March 26th
+
+Work Completed since Last Week:
+   - Added functionality to send collision avoidance data to tablet
    - Used protocol discussed with Adam 
-   - Will do integration testing next week
+
+Work To Be Completed By Next Week:
+   - Integration testing
 
 ===============================================================================
 Thursday March 14th
@@ -652,11 +687,21 @@ Adam and James - worked on final integration issues
 ===============================================================================
 Wednesday March 20th
 
-More integration testing
-   - Everything should be working, but isn't
+Group Meeting: (1pm, All in attendance)
+Notes:
+   - Integration testing: Everything should be working, but isn't
    - Strange issue: system works when started by laptop, but not when started 
      by tablet 
    - Tried to fix with sleep command, no luck
+
+Completed Since Last Week:
+   - More Integration testing
+
+To Do for Next Week:
+   - Jennifer and Rami will make the poster
+   - We will all be demoing to CDL on Tuesday
+   - Adam and James will handle integration over the weekend 
+   - The Iron Ring Ceremony is this weekend, so we will be busy
 
 ===============================================================================
 Sunday March 24th
@@ -666,10 +711,8 @@ Adam and James met to discuss final integration issues
    - James modified drone to run setupPortForwarding as part of boot-time network
      configuration 
    - Tablet is now only responsible for starting the autopilot binary
-
    - Tested changes 
    - Changes work!
-
    - Discussed demo on Tuesday - everything should be good to go
 
 ===============================================================================
