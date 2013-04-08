@@ -450,8 +450,9 @@ Team meeting during lab time (1pm.) All members attending.
 Notes:
    - Discussed Report 1: How we will approach it, ironed out any ambiguities, and discussed 
      design options.
-   - Peer review deadline for Report 1 was set to January 28th
-   - Jennifer will have the report reviewed and formatted by January 30th
+   - Peer review deadline for Report 1 was set to January 30th
+   - Jennifer will have the report reviewed and formatted by January 31st
+
 
 Work Completed From Last Week:
    - Jen has assigned everyone sections of the report to do, and set up the outline for it.
@@ -463,8 +464,16 @@ Work Completed From Last Week:
 To Do For Next Week:
    - As a team, come up with a plan to test all the requirements Jen listed.  
    - Jen, James and Rami will do the manual testing.
+   - Jen will analyze the manual testing data and enter it into the report.
    - James will begin writing a script for the second demo video.
-   - Will work on the report as a team.
+   - Everyone will make progress on their respective sections of the report: Rami and James will 
+     produce the images and diagrams.  James will also elaborate on hardware and collision 
+     avoidance design.  Rami will write the app design. Jennifer will complete health and 
+     safety analysis, schedule, and high level design specs.  Adam will complete budget, copy 
+     in introduction and rework it.  Note that while these sections were what we were each 
+     responsible for, we all contribute to any part of the paper we feel requires elaboration 
+     or improvement.  Jennifer will do the final revision / formatting of the paper and Adam 
+     will be responsible for handing it in.
 
 MANUAL TESTING RESULTS:
 
@@ -575,22 +584,30 @@ Adam - worked on app
 Wednesday January 30
 
 Team Meeting Minutes: (1pm, All members present.)
-
-Work completed since last meeting:
-
-Notes for the meeting:
+Notes:
+   - We feel confident in finishing Report 1 by tonight.
    - Considered buying a second tablet to make app development easier. We're having trouble 
      sharing time to allow us all to have a chance with the tablet.  We expect that we will 
      have enough funds in the budget to allow for this.
-   - Jen analyzed the test data and entered into the report.  
-   - Focusing on Report 1 today; we split up the last bits of the report.  Rami and James will 
-     produce the images and diagrams.  James will also elaborate on hardware and collision 
-     avoidance design.  Rami will write the app design. Jennifer will complete health and 
-     safety analysis, schedule, and high level design specs.  Adam will complete budget, copy 
-     in introduction and rework it.  Note that while these sections were what we were each 
-     responsible for, we all contribute to any part of the paper we feel requires elaboration 
-     or improvement.  Jennifer will do the final revision / formatting of the paper and Adam 
-     will be responsible for handing it in.
+
+Work completed since last meeting:
+   - Requirements for the manual test were hashed out
+   - Jen James and Rami did manual testing (Results shown in last Wednesday's entry.
+   - Jen analyzed and did calculations for the manual test data.
+   - Put in lots of time on Report 1. 
+   - Adam made some tweaks to the app GUI and removed absolute control mode this 
+     weekend. (Adam has access to the tablet over the weekends, so he can do some 
+     work outside of regular meeting times.)
+
+To Do For Next Week:
+   - Focusing on working on Report 1 together
+   - Rami and James will finish a few more diagrams (We need several updated images of the 
+     quadcopter with 6 sensors rather than 4).  
+   - Jennifer will finish the "Specs" and "Health and Safety" sections and add any extra references.
+   - Everyone will review what was written by their team mates, to ensure that its accurate and 
+     clear.  When finished, notify Jennifer via email.
+   - Jennifer will review the report and format it into a .doc and .pdf. 
+   - Adam will print and hand in the report.
 
 ===============================================================================
 Wednesday February 6th
@@ -601,7 +618,11 @@ Team Meeting Minutes: (1pm, all members present)
      list with the cost of each component in our budget.
    - We requested not to be supervised by Mike Smith, as we felt he focused to much on the 
      hardware components of our project, and had a different idea of the scope of our system.
-   - Dr Haque would like us to meet with our academic advisor, so we will set up an appointment.
+   - Dr Haque would like us to meet with our academic advisor, so we will set up an appointment.  
+     We feel that this is a good idea for keeping our academic mentor informed.  We failed to do 
+     this last semester, and found that Dr Smith had a completely different scope in mind for our 
+     project than we and out Sponsors did.  Differences in views and opinions could be ironed out 
+     easier if we do it before the end of the year!
    - Updates on app development
    - Updates on collision avoidance
    - Discussion on keeping up with logbook 
@@ -609,7 +630,7 @@ Team Meeting Minutes: (1pm, all members present)
      and do not think we could have avoided the aspects of it which cost us marks, due to 
      lack of knowledge on additional requirements.
 
-Work completed since last meeting:
+Work Completed Since Last Meeting:
    - Rami and James produced the images and diagrams.  
    - James wrote hardware and collision avoidance design.  
    - Rami wrote the app design. 
@@ -619,9 +640,13 @@ Work completed since last meeting:
    - Note that while these sections were what we were each responsible for, we all contributed 
      to the overall paper.
 
-To Do for next week:
-   - Jen will update the logbook with all our offline materials.
-   - Rami will set up a meeting with our Academic Advisor, Dr Krishnamurthy.
+To Do for Next Week:
+   - Jen will update the logbook with all of our offline materials.
+   - Rami will book our final Presentation and Demo times with Dr Krishnamurthy.  While he is 
+     at it, he will also set up an informal meeting with him, so we can be sure he understands 
+     the scope and has no early issues.
+   - James will work on collision avoidance module; everyone else will continue work on the 
+     application.
 
 
 ===============================================================================
@@ -633,8 +658,11 @@ Team Meeting Minutes: (1pm, All members present)
      to finish modifications to the app
 
 Completed Since Last Meeting:
+   - Jen updated the logbook with the notes she took over the last few weeks.
+   - Rami set up a presentation date, demo and informal meeting with Dr 
+     Krishnamurthy
 
-To Do For Next Meeting:
+To Do For Next Week:
    - James will set up a time for an informal demo to CDL systems
    - Next week is a holiday, so no other work is assigned.
 
