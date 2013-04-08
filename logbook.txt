@@ -377,9 +377,9 @@ Tuesday, December 4, 2012
 ===============================================================================================
 Saturday, January 12, 2013
 
-Adam explored open source options to build upon for our android application, Adam was able to 
-locate and compile/run a few open source applications that were made for the AR Drone 1.0 and would likely not 
-work for our project since the API changed inbetween versions.
+Adam explored open source options to build upon for our android application, and we were able to 
+locate and compile/run a few open source applications that were made for the AR Drone 1.0 and 
+would likely not work for our project since the API changed in between versions.
    -http://kougaku-navi.net/ARDroneForP5/index_en.html
    -http://code.google.com/p/javadrone/
    -https://github.com/UnknownGuardian/ARDrone-on-Android
@@ -390,28 +390,49 @@ Sunday, January 13, 2013
 A post was answered on the AR drone development website listing a new source for android development
    -http://vsis-www.informatik.uni-hamburg.de/projects/yadrone/
 
+
 ===============================================================================================
 Tuesday, January 15, 2013
 
-Team meeting: 1pm.  All members in attendance.
-   -Tested out all of the android drone applications we found, none of the applications worked
-   correctly.  However we eventually figured out that we were compiling yadrone for the wrong 
-   android target and were able to use the application to successfully fly the drone.
-   -We decided that we will scrap the sample android application that was supplied with the 
-   yadrone framework and we would build our application from the ground up and use the framework
-   in order to avoid having to reimplement all the commands that are sent to the drone for it 
-   to fly
+Team meeting: (1pm.  All members in attendance.)
+Notes:
+   - Caught up on what we need to do this year.  
+   - Reviewed our materials and budget.
+   - Reviewed course requirements.
+
+Work Completed From Last Week:
+   - Jen booked the midterm meeting with Dr Haque
+
+To Do For Next Week:
+   - Test out all of the android drone applications we can find.
+   - Decide whether to use the supplied AR.FreeFlight application or write our own from the 
+     ground up.
+   - James will do some sample command testing
 
 ===============================================================================================
 Wednesday, January 16, 2013
 
 Team meeting during lab period (1pm). All members in attendance.
+Notes:
    -Discussed how to start doing the report 1 for this project 
    -Decided that the target android device we will use is a Nexus 7 since a 10 inch tablet feels to 
    big while flying the copter
-   -Adam will get a nexus 7 tablet for development this evening
-   -James updated us on his work with the avoidance system on the drone, did some sample command testing
+
+Work Completed From Last Week
+   - Tested out all of the android drone applications we found, none of the applications worked
+   correctly.  However we eventually figured out that we were compiling yadrone for the wrong 
+   android target and were able to use the application to successfully fly the drone.
+   - We decided that we will scrap the sample android application that was supplied with the 
+   yadrone framework and we would build our application from the ground up and use the framework
+   in order to avoid having to re-implement all the commands that are sent to the drone for it 
+   to fly.
+   - James updated us on his work with the avoidance system on the drone, did some sample command testing
    to get sample command data to implement from
+
+To Do For Next Week:
+   - Adam will buy a nexus 7 tablet for development this evening
+   - Jennifer will look over the report, and assign everyone tasks for it.
+
 
 ===============================================================================================
 Monday, January 21, 2013
@@ -426,9 +447,26 @@ James
 Wednesday, January 23, 2013
 
 Team meeting during lab time (1pm.) All members attending. 
+Notes:
+   - Discussed Report 1: How we will approach it, ironed out any ambiguities, and discussed 
+     design options.
+   - Peer review deadline for Report 1 was set to January 28th
+   - Jennifer will have the report reviewed and formatted by January 30th
 
-   - We discussed what James did yesterday, as noted in yesterday's entry. 
-   - Based on Dr Smith's feedback, Jennifer constructed a list of specifications and limitations that need to be tested right away.  As a team, we came up with a plan to test all these things.  Adam had to go to class at 2pm, and James Jen and Rami did the following testing:
+Work Completed From Last Week:
+   - Jen has assigned everyone sections of the report to do, and set up the outline for it.
+   - James fixed packet parsing logic, and added better logging functionality to diagnose 
+     issues in the future
+   - Based on Dr Smith's feedback, Jennifer constructed a list of specifications and 
+     limitations for the drone and the sensors that need to be tested right away.  
+
+To Do For Next Week:
+   - As a team, come up with a plan to test all the requirements Jen listed.  
+   - Jen, James and Rami will do the manual testing.
+   - James will begin writing a script for the second demo video.
+   - Will work on the report as a team.
+
+MANUAL TESTING RESULTS:
 
 Performed sensor platform testing
    - Recorded entire test procedure to video
@@ -507,8 +545,6 @@ Data Collected:
 
    Other test to do - wall angle tests?
    - Will need to do outside, when we have more time.
-
-Began developing script for second video
 
 ===============================================================================
 Sunday January 27
