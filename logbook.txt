@@ -654,6 +654,7 @@ Wednesday February 13th
 Team Meeting Minutes: (1pm, All members present)
    - Discussed potential demonstration to CDL
    - Discussed action plan going forward - project is almost complete, just need
+<<<<<<< HEAD
      to finish modifications to the app
 
 Completed Since Last Meeting:
@@ -664,6 +665,23 @@ Completed Since Last Meeting:
 To Do For Next Week:
    - James will set up a time for an informal demo to CDL systems
    - Next week is a holiday, so no other work is assigned.
+=======
+     to finish modifications to the app
+   - We would like to start on Report 2, but no information was posted regarding it.  
+     We decided to discuss what we will talk about for it while we wait.
+
+Completed Since Last Meeting:
+   - Jen updated the logbook with the notes she took over the last few weeks.
+   - Rami set up a presentation date, demo and informal meeting with Dr 
+     Krishnamurthy
+   - Collision avoidance system was completed
+   - Lots of progress made on the application.
+
+To Do For Next Week:
+   - James will set up a time for an informal demo to CDL systems.
+   - Next week is a holiday, so no other work is assigned.  Adam will be the only 
+     one with access to the tablet, so he may work on it if he has time.
+>>>>>>> Added Details (Part4)
 
 ===============================================================================
 Wednesday, February 20th
@@ -685,8 +703,8 @@ Adam:
 ===============================================================================
 Monday, February 25th
 
-Adam:
-   - Discussed integration of drone and app with James
+Adam and James held an informal impromptu meeting:
+   - Discussed integration of drone and app
    - Decided on simple UDP packet format: "0,0,0,0,0,0", where each "0" is a
      sensor reading representing the danger level
    - James will integrate support with the drone
@@ -695,6 +713,7 @@ Adam:
 ===============================================================================
 Wednesday February 27th
 
+<<<<<<< HEAD
 Team Meeting Minutes: (1pm, All Members Present) 
    - Looking forward to Report 2, and assigning roles:
    - Discussed testing options
@@ -702,13 +721,45 @@ Team Meeting Minutes: (1pm, All Members Present)
 Completed Since Last Meeting:
    - James set up an informal demo with our sponsor.
    - Not much else; last week was a holiday so only Adam was able to work on the project.
+=======
+Team Meeting Minutes: (1pm, All Members Present) 
+Notes:
+   - Looking forward to Report 2.
+   - Discussed testing options.
+
+Completed Since Last Meeting:
+   - James set up an informal demo with our sponsor.
+   - Last week was a holiday so only Adam was able to work on the project. He 
+     finished up the application.
+   - Integration and integration testing was begun
+
+To Do For Next Week:
+   - Everyone will work on integration.  We will test as we go.
+
+>>>>>>> Added Details (Part4)
 	
 ===============================================================================
 Wednesday March 6th
 
+<<<<<<< HEAD
 Team Meeting (12pm, All in attendance)
    - Integration mostly complete
    - Ready for flight testing
+=======
+Team Meeting Minutes: (1pm, All Members Present)
+Notes:
+   - The product is now ready for flight testing. We discussed how we should 
+     go about doing the testing with the limited indoor space and unexpected weather.
+
+Completed Since Last Meeting:
+   - Made progress on integration. It is now mostly complete
+   - Ready for flight testing
+
+To Do For Next Week:
+   - Everyone: Help out with flight testing
+   - Jennifer will review Report 2 requirements and divide the work between 
+     everyone.
+>>>>>>> Added Details (Part4)
 
 ===============================================================================
 Thursday March 13th
@@ -731,13 +782,35 @@ Group Meeting: (1pm, All members attended)
 Meeting Notes:
    - Demo with CDL was rescheduled since the boardroom was booked 
    - Demo was moved to March 26th
+   - We discussed how integration testing is going.  We somewhat wish we had not 
+     created the tablet and the collision avoidance separately, but we needed to 
+     in order to make it easier for all team members to work on the project 
+     simultaneously.
+   - Jennifer has doled out the following tasks for Report 2: The introduction and 
+     specs will be copied from Report 1, James and Adam will write the test results, 
+     Jennifer and Rami will write the challenges and learning, Rami will write the 
+     conclusion, and Jennifer will review and format the report.  Adam will print and 
+     hand in the report.
 
+<<<<<<< HEAD
 Work Completed since Last Week:
    - Added functionality to send collision avoidance data to tablet
    - Used protocol discussed with Adam 
 
+=======
+Work Completed since Last Week:
+   - Added functionality to send collision avoidance data to tablet. Used protocol 
+     James and Adam discussed.
+   - Jennifer assigned everyone a task for Report 2.
+
+>>>>>>> Added Details (Part4)
 Work To Be Completed By Next Week:
-   - Integration testing
+   - Integration testing will continue.
+   - We will work out the rest of our integration issues.  This is a big priority.
+   - We will make some small tweaks to a few aspects of the app.
+   - Everyone will complete their assigned Report 2 duties, and let Jennifer 
+     know when they have finished.
+
 
 ===============================================================================
 Thursday March 14th
@@ -749,6 +822,7 @@ Adam and James - worked on final integration issues (12pm)
 
 ===============================================================================
 Wednesday March 20th
+<<<<<<< HEAD
 
 Group Meeting: (1pm, All in attendance)
 Notes:
@@ -764,6 +838,30 @@ To Do for Next Week:
    - Jennifer and Rami will make the poster
    - We will all be demoing to CDL on Tuesday
    - Adam and James will handle integration over the weekend 
+=======
+
+Group Meeting: (1pm, All in attendance)
+Notes:
+   - Integration testing: Everything should be working, but isn't.
+   - Strange issue: system works when started by laptop, but not when started 
+     by tablet. Tried to fix with sleep command, no luck
+   - Discussed how Report 2 went.
+   - Since Adam and James ended up doing a lot of work on the system itself over 
+     Reading Break and due being able to work on it outside of regular meetings, 
+     Jen and Rami will be chiefly responsible for the poster and presentation.
+
+Completed Since Last Week:
+   - More Integration testing
+   - Report 2 Completed: James and Adam wrote test results, Jennifer and Rami 
+     wrote challenges and learning, Rami wrote the conclusion, and Jennifer 
+     checked to be sure all requirements were in place for the paper, proofread, 
+     and formatted the paper into pdf/doc. Adam handed it in.
+
+To Do for Next Week:
+   - Jennifer and Rami will make the poster
+   - We will all be demoing to CDL on Tuesday
+   - Adam and James will handle integration over the weekend 
+>>>>>>> Added Details (Part4)
    - The Iron Ring Ceremony is this weekend, so we will be busy
 
 ===============================================================================
@@ -779,11 +877,20 @@ Adam and James met to discuss final integration issues (12pm)
    - Discussed demo on Tuesday - everything should be good to go
 
 ===============================================================================
+<<<<<<< HEAD
 Monday, March 25th
 
 Jennifer and Rami (12pm)
    - Started the project poster.  Added most of the content
    - Will ask CDL if they wish us to display their logo on the poster.
+=======
+Monday, March 25th
+
+Jennifer and Rami
+   - Started the project poster.  Had some issues with the provided format and 
+     had to do a lot of tweaking. Added most of the content today.
+   - Will ask CDL if they wish us to display their logo on the poster at the demo tomorrow.
+>>>>>>> Added Details (Part4)
 
 ===============================================================================
 Tuesday March 26th
@@ -798,11 +905,40 @@ Demo to CDL (10am, All in attendance)
 
 ===============================================================================
 Wednesday, March 27th
+<<<<<<< HEAD
 
 Jennifer and Rami (12pm)
     - Finalized the formatting on the presentation poster
     - Jennifer submitted the poster for printing
 
+=======
+
+Group Meeting: (1pm, All in attendance)
+Notes:
+   - The poster is coming along nicely.  James and Adam looked over it and gave 
+     some feedback.
+   - Discussed the response we got from CDL on Tuesday. Came up with ideas for 
+     what we should try to highlight in our demo.
+   - Still waiting to hear back from CDL on whether they want their logo on the 
+     poster or not.
+   - We discussed what to wear to the capstone fair.  While it is too late to 
+     get shirts for the presentation or demo, we will get some shirts made in 
+     time for the capstone fair.
+
+Completed Since Last Week:
+   - Jennifer and Rami have the poster almost complete; we just need to hear back 
+     from CDL on the logo.
+
+To Do For Next Week:
+   - James will keep us informed on CDL's decision
+   - James will contact NewDog about getting team shirts made.  He has a really 
+     great looking design in mind.
+   - Jennifer and Rami will finalize the formatting on the presentation poster
+   - Jennifer will submit the poster for printing
+   - Jennifer will make a first draft for the presentation slides.
+   - Decide what everyone will say for the presentation.
+
+>>>>>>> Added Details (Part4)
 ===============================================================================
 Thursday, March 28th
 
@@ -822,6 +958,7 @@ Tuesday, April 2nd
 
 James (2pm)
    - Merged logbooks which had been accidently kept offline
+<<<<<<< HEAD
    - I guess GitHub's history doesn't look right if we don't use GitHub :)
 
 
@@ -865,4 +1002,102 @@ Capstone Fair (12pm, All in attendance)
 
 
 
+=======
+   - I guess GitHub's history doesn't look right if we don't use GitHub :)
+
+
+===============================================================================
+Wednesday April 3rd
+
+Group Meeting: (1pm, All in attendance)
+Notes:
+   - Edited and finalized the presentation slides as a group.
+   - Divided who will say what in the presentation: Rami will start the 
+     presentation by introducing everyone, and discuss the problem, importance, 
+     and scope. Jen will talk about the high-level design, materials, challenges and 
+     conclusions. James discussed the low level design of the hardware and the 
+     collision control system. Adam discussed the low level design of the application, 
+     as well as the testing and test results.
+   - Held a 20 minute rehearsal of the presentation. Its a bit choppy the first time 
+     through, but will improve with practice.
+   -
+
+Completed Since Last Week:
+   - Jennifer submitted the poster to Imagine for printing.
+   - Jennifer produced a first draft of the presentation slides.
+   - Adam James and Rami looked over the slides and added anything they felt was missing.
+   - We rearranged the slides as a group.
+   - James ordered tshirts for the team.
+   - We divided up the speaking for the presentation.
+
+To Do For Next Week:
+   - The demo is tomorrow morning at 10:30.  We are all going to arrive by 9 to 
+     double-check everything.
+   - The team will have an extra meeting Friday at 1pm to prepare for the presentation.
+   - Everyone will produce any queue cards they need for the final presentation 
+     and know what they are going to say.
+
+===============================================================================
+Thursday April 4rd
+
+Demonstration to Dr. Krishnamurthy (10:30am)
+   - Met with Dr. Krishnamurthy and gave a live demo of the quadcopter
+   - Demonstrated all features of the project.
+   - Answered any questions asked by the professor.
+   - Overall, he seems pleased with our results.  He asked a lot of questions.
+   - We may have been smarter to book the demo for after the presentation, 
+     since we presented him with the product without a good introduction.  Then 
+     tomorrow, we will be repeating everything we already told him!
+
+===============================================================================
+Friday April 5th
+
+Group Meeting: (1pm, All in attendance)
+Notes:
+   - Did a final rehearsal and timing of the presentation
+   - Went to the presentation room to test that the slideshow will work correctly. 
+     (We had issues with this last semester.)
+
+Completed Since Last Week:
+   - Demo completed.
+
+To Do For Next Week:
+   - Rami will pick up the poster on Monday
+   - James will pick up the tshirts on Tuesday morning.
+
+Presentation to Dr. Krishnamurthy (4:30pm)
+    - Met with Dr. Krishnamurthy and gave 20 minute presentation
+    - Presentation went very well
+    - Answered any questions asked by the professor
+
+===============================================================================
+Monday April 8th
+
+Group Meeting (12pm, All in attendance) 
+    - Met to discuss details of the capstone fair
+    - Discussed how the presentation went.
+
+Completed Since Last Week:
+    - Rami picked the up the poster and confirmed it was correct
+
+To Do For Next Week:
+    - Agreed to meet in the morning (10am on Tuesday) to set up for the fair
+
+
+===============================================================================
+Tuesday April 9th
+
+Capstone Fair (12pm, All in attendance) 
+    - Met at 10am, set up, and participated in Capstone Fair
+
+
+
+
+
+ 
+
+
+
+
+>>>>>>> Added Details (Part4)
 
