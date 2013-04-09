@@ -1,4 +1,3 @@
-
 ========================================================================================
 Sunday, September 16th, 2012
 
@@ -707,7 +706,7 @@ Completed Since Last Meeting:
 ===============================================================================
 Wednesday March 6th
 
-Team Meeting Minutes:
+Team Meeting (12pm, All in attendance)
    - Integration mostly complete
    - Ready for flight testing
 
@@ -743,7 +742,7 @@ Work To Be Completed By Next Week:
 ===============================================================================
 Thursday March 14th
 
-Adam and James - worked on final integration issues
+Adam and James - worked on final integration issues (12pm)
    - Changed avoidance bars to look nicer 
    - Modified telnet command to run networking setup on the drone, as well as 
      start the autopilot software
@@ -770,7 +769,7 @@ To Do for Next Week:
 ===============================================================================
 Sunday March 24th
 
-Adam and James met to discuss final integration issues
+Adam and James met to discuss final integration issues (12pm)
    - Diagnosed issue: AR.Drone locks sockets before setupPortForwarding is run 
    - James modified drone to run setupPortForwarding as part of boot-time network
      configuration 
@@ -782,14 +781,14 @@ Adam and James met to discuss final integration issues
 ===============================================================================
 Monday, March 25th
 
-Jennifer and Rami
+Jennifer and Rami (12pm)
    - Started the project poster.  Added most of the content
    - Will ask CDL if they wish us to display their logo on the poster.
 
 ===============================================================================
 Tuesday March 26th
 
-Demo to CDL
+Demo to CDL (10am, All in attendance)
    - Demo went well
    - Seems like the entire company came out to watch :)
    - No issues with drone, batteries, autopilot or tablet
@@ -800,27 +799,28 @@ Demo to CDL
 ===============================================================================
 Wednesday, March 27th
 
-Jennifer and Rami
+Jennifer and Rami (12pm)
     - Finalized the formatting on the presentation poster
     - Jennifer submitted the poster for printing
 
 ===============================================================================
 Thursday, March 28th
 
-Team
+Team Meeting (12pm, All in attendance)
+   - Created design for team t-shirts
    - Ordered team t-shirts for the capstone presentation.
 
 ===============================================================================
 Monday, April 1st
 
-Jennifer
+Jennifer (2pm)
    - Put together a first draft version of the final presentation slides.
    - Sent the presentation out to the team
 
 ===============================================================================
 Tuesday, April 2nd
 
-James 
+James (2pm)
    - Merged logbooks which had been accidently kept offline
    - I guess GitHub's history doesn't look right if we don't use GitHub :)
 
@@ -828,11 +828,40 @@ James
 ===============================================================================
 Wednesday April 3rd
 
-Team
+Team Meeting (12pm, All in attendance)
     - Edited and finalized the presentation slides
     - Divided who will say what in the presentation
     - Held a 20 minute rehearsal of the presentation
 
+===============================================================================
+Thursday April 4rd
+
+Demonstration to Dr. Krishnamurthy (10:30am)
+    - Met with Dr. Krishnamurthy and gave live demo of quadcopter
+    - Demonstrated all features of project
+    - Answered any questions asked by the professor
+
+===============================================================================
+Friday April 5th
+
+Presentation to Dr. Krishnamurthy (4:30pm)
+    - Met with Dr. Krishnamurthy and gave 20 minute presentation
+    - Presentation went very well
+    - Answered any questions asked by the professor
+
+===============================================================================
+Monday April 8th
+
+Group Meeting (12pm, All in attendance) 
+    - Met to discuss details of capstone fair
+    - Rami picked up poster and confirmed it was correct
+    - Agreed to meet in the morning (10am on Tuesday) to set up for fair
+
+===============================================================================
+Tuesday April 9th
+
+Capstone Fair (12pm, All in attendance) 
+    - Participated in capstone fair
 
 
 
